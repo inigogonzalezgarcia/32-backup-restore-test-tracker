@@ -1,0 +1,37 @@
+{
+  "organisation": "Proseware Industries",
+  "as_of": "2026-10-25 08:00",
+  "tiers": {
+    "1": {
+      "test_days": 90,
+      "full_test_days": 365,
+      "copies": [
+        "offsite",
+        "immutable"
+      ]
+    },
+    "2": {
+      "test_days": 180,
+      "full_test_days": 730,
+      "copies": [
+        "offsite"
+      ]
+    },
+    "3": {
+      "test_days": 365,
+      "full_test_days": 0,
+      "copies": []
+    }
+  },
+  "job_window_days": 14,
+  "fail_streak": 3,
+  "copy_window_days": 7,
+  "dr_exercise_days": 365,
+  "due_soon_days": 30,
+  "owners": {
+    "backup": "Infrastructure team",
+    "tests": "Infrastructure team",
+    "dr": "Business continuity lead",
+    "apps": "Application owners"
+  }
+}

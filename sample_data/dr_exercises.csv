@@ -1,0 +1,5 @@
+Exercise,Planned,Done,Scope,Result,Report
+Annual DR failover to the plant site,2025-11-14,2025-11-14,Tier 1 systems,Partial: 2 of 14 tier 1 systems missed the RTO,DR-2025-report
+Ransomware recovery tabletop,2026-04-22,2026-04-22,"Management team, IT, legal, communications","Done, 4 actions",TT-2026-04
+ERP failover to Azure,2026-10-15,,ERP database and application servers,,
+Annual DR failover to the plant site,2026-11-20,,Tier 1 systems,,
