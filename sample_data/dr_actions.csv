@@ -1,0 +1,9 @@
+Action ID,Exercise,Action,Owner,Due,Status
+A-01,Annual DR failover to the plant site,Document the MES start-up order after a restore,Plant systems,2026-01-31,Done
+A-02,Annual DR failover to the plant site,Pre-stage ERP application servers at the plant site to meet the RTO,Finance systems,2026-06-30,Open
+A-03,Annual DR failover to the plant site,Add the PLM licence server to the DR plan,Engineering,2026-03-31,Done
+A-04,Ransomware recovery tabletop,Offline copy of the DR runbooks and contact list,Business continuity lead,2026-06-30,Open
+A-05,Ransomware recovery tabletop,Hardened repository for all tier 1 systems,Infrastructure,2026-07-31,Done
+A-06,Ransomware recovery tabletop,"Decision tree for paying, restoring or rebuilding, approved by management",Business continuity lead,2026-09-30,Open
+A-07,Ransomware recovery tabletop,Restore test of Active Directory from scratch in an isolated network,Infrastructure,2026-12-15,Open
+A-08,Annual DR failover to the plant site,Bandwidth upgrade between sites for the DR copy jobs,Infrastructure,2026-11-30,Open

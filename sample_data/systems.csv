@@ -1,0 +1,80 @@
+System,Service,Owner,Tier,RPO hours,RTO hours,Platform,Site,Status,In scope
+erp-db01,ERP database,Finance systems,1,24,4,SQL Server,HQ,active,yes
+erp-app01,ERP application server,Finance systems,1,24,4,VM,HQ,active,yes
+erp-app02,ERP application server,Finance systems,1,24,4,VM,HQ,active,yes
+mes-app01,MES application,Plant systems,1,24,4,VM,Plant,active,yes
+mes-db01,MES database,Plant systems,1,24,4,SQL Server,Plant,active,yes
+mes-hist01,MES historian,Plant systems,1,24,4,VM,Plant,active,yes
+plm-db01,PLM database,Engineering,1,24,4,SQL Server,HQ,active,yes
+payroll-db01,Payroll database,HR systems,1,24,4,SQL Server,HQ,active,yes
+ad-dc01,Active Directory,Infrastructure,1,24,4,VM,HQ,active,yes
+ad-dc02,Active Directory,Infrastructure,1,24,4,VM,Plant,active,yes
+m365-mail,Exchange Online mailboxes,Infrastructure,1,24,4,Microsoft 365,Cloud,active,yes
+fs-hq01,File server HQ,Infrastructure,1,24,4,VM,HQ,active,yes
+wms-db01,Warehouse management database,Logistics,1,24,4,SQL Server,Plant,active,yes
+edi-gw01,EDI gateway,Logistics,1,24,4,VM,Azure,active,yes
+crm-db01,CRM database,Sales,2,24,24,SQL Server,Azure,active,yes
+crm-app01,CRM application,Sales,2,24,24,VM,Azure,active,yes
+dw-db01,Data warehouse,BI,2,24,24,SQL Server,HQ,active,yes
+bi-app01,BI reporting,BI,2,24,24,VM,HQ,active,yes
+sql-bi01,BI staging database,BI,2,24,24,SQL Server,HQ,active,yes
+fs-plant01,File server plant,Infrastructure,2,24,24,VM,Plant,active,yes
+fs-plant02,File server plant engineering,Infrastructure,2,24,24,VM,Plant,active,yes
+qa-lims01,Quality lab system,Quality,2,24,24,VM,Plant,active,yes
+hr-app01,HR portal,HR systems,2,24,24,VM,Azure,active,yes
+m365-sharepoint,SharePoint Online sites,Infrastructure,2,24,24,Microsoft 365,Cloud,active,yes
+m365-onedrive,OneDrive for Business,Infrastructure,2,24,24,Microsoft 365,Cloud,active,yes
+cad-lic01,CAD licence server,Engineering,2,24,24,VM,HQ,active,yes
+pdm-app01,Product data vault,Engineering,2,24,24,VM,HQ,active,yes
+scada-hist02,Line SCADA history,Plant systems,2,24,24,VM,Plant,active,yes
+maint-app01,Maintenance management,Plant systems,2,24,24,VM,Plant,active,yes
+tms-app01,Transport management,Logistics,2,24,24,VM,Azure,active,yes
+portal-web01,Supplier portal,Purchasing,2,24,24,VM,Azure,active,yes
+portal-db01,Supplier portal database,Purchasing,2,24,24,SQL Server,Azure,active,yes
+treasury-app01,Treasury,Finance systems,2,24,24,VM,HQ,active,yes
+expense-app01,Expenses,Finance systems,2,24,24,VM,Azure,active,yes
+doc-mgmt01,Document management,Quality,2,24,24,VM,HQ,active,yes
+itsm-app01,Service desk,Infrastructure,2,24,24,VM,Azure,active,yes
+pki-ca01,Certificate authority,Infrastructure,2,24,24,VM,HQ,active,yes
+radius01,Wi-Fi authentication,Infrastructure,2,24,24,VM,HQ,active,yes
+vcenter01,vCenter,Infrastructure,2,24,24,VM,HQ,active,yes
+backup-cfg,Backup server configuration,Infrastructure,2,24,24,VM,HQ,active,yes
+intranet-app01,Intranet,Communications,2,24,24,VM,Azure,active,yes
+labels-app01,Label printing,Logistics,2,24,24,VM,Plant,active,yes
+energy-mon01,Energy monitoring,Plant systems,2,24,24,VM,Plant,active,yes
+access-ctl01,Building access control,Facilities,2,24,24,VM,HQ,active,yes
+print01,Print server HQ,Infrastructure,3,72,72,VM,HQ,active,yes
+print02,Print server plant,Infrastructure,3,72,72,VM,HQ,active,yes
+wsus01,Windows updates,Infrastructure,3,72,72,VM,HQ,active,yes
+kms01,Licence activation,Infrastructure,3,72,72,VM,HQ,active,yes
+jump01,Admin jump host,Infrastructure,3,72,72,VM,HQ,active,yes
+jump02,Admin jump host plant,Infrastructure,3,72,72,VM,HQ,active,yes
+dev-build01,Build server,Infrastructure,3,168,72,VM,HQ,active,yes
+dev-git01,Source code server,Infrastructure,3,168,72,VM,HQ,active,yes
+dev-web01,Development web server,Infrastructure,3,168,72,VM,HQ,active,yes
+test-erp01,ERP test,Infrastructure,3,72,72,VM,HQ,active,yes
+test-mes01,MES test,Infrastructure,3,72,72,VM,HQ,active,yes
+test-crm01,CRM test,Infrastructure,3,72,72,VM,HQ,active,yes
+monitor01,Monitoring,Infrastructure,3,72,72,VM,HQ,active,yes
+syslog01,Log collector,Infrastructure,3,72,72,VM,HQ,active,yes
+ntp01,Time server,Infrastructure,3,72,72,VM,HQ,active,yes
+deploy01,Software deployment,Infrastructure,3,72,72,VM,HQ,active,yes
+mdt01,OS deployment,Infrastructure,3,72,72,VM,HQ,active,yes
+pdq01,Patch deployment,Infrastructure,3,72,72,VM,HQ,active,yes
+lab-vm01,IT lab,Infrastructure,3,72,72,VM,HQ,active,yes
+lab-vm02,IT lab,Infrastructure,3,72,72,VM,HQ,active,yes
+train-erp01,ERP training,Infrastructure,3,72,72,VM,HQ,active,yes
+kiosk-img01,Kiosk images,Infrastructure,3,72,72,VM,HQ,active,yes
+archive-fs01,File archive,Infrastructure,3,72,72,VM,HQ,active,yes
+scan01,Scan to folder,Infrastructure,3,72,72,VM,HQ,active,yes
+fax01,Fax server,Infrastructure,3,72,72,VM,HQ,active,yes
+vdi-tpl01,VDI templates,Infrastructure,3,72,72,VM,HQ,active,yes
+license-flex01,Engineering licences,Infrastructure,3,72,72,VM,HQ,active,yes
+ftp01,Partner file transfer,Infrastructure,3,72,72,VM,HQ,active,yes
+web-old01,Old public website,Infrastructure,3,72,72,VM,HQ,active,yes
+reports-tst01,Reporting test,Infrastructure,3,72,72,VM,HQ,active,yes
+sandbox-bi01,BI sandbox,Infrastructure,3,72,72,VM,HQ,active,yes
+edu-lms01,Training platform,Infrastructure,3,72,72,VM,HQ,active,yes
+old-erp-db01,Former ERP database,Infrastructure,2,24,24,VM,HQ,decommissioned,no
+old-fs01,Former file server,Infrastructure,2,24,24,VM,HQ,decommissioned,no
+sap-sandbox01,Vendor sandbox,Finance systems,3,168,168,VM,Azure,active,no
